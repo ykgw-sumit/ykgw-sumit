@@ -7,9 +7,8 @@ function myFunction
 function product(a, b) {
         return a * b;
     }
-  
-    // Calling product() function
+
     var result = product.call(this, 20, 5);
   
     document.write(result);
-</script>
+
